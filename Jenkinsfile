@@ -11,14 +11,12 @@ pipeline{
         stage("Clean"){
             steps{
                 bat "mvn clean"
-                echo "HII FROM CLEAN"
             }
         }
 
         stage("test"){
             steps{
                 bat "mvn test"
-                echo "HII FROM TEST"
             }
         }
 
