@@ -3,7 +3,7 @@ Pipeline{
 
     stages{
         stage("Preparation"){
-            git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+            git 'https://github.com/komalumare/Mock_Test_Que_1.git'
         }
 
         stage("Clean"){
