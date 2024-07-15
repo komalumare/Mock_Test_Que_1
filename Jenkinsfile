@@ -3,7 +3,7 @@ Pipeline{
 
     stages{
         stage("Preparation"){
-            git 'https://github.com/komalumare/Mock_Test_Que_1.git'
+            git 'https://github.com/komalumare/Mock_Test_Que_1'
         }
 
         stage("Clean"){
