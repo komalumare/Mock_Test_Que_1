@@ -18,6 +18,7 @@ pipeline{
         stage("test"){
             steps{
                 bat "mvn test"
+                echo "HII FROM TEST"
             }
         }
 
