@@ -4,6 +4,6 @@ public class App {
         System.out.println(obtainWelcomeString());
     }
     public static String obtainWelcomeString() {
-		return "Hello  Komal. Welcome to maven!!!";
+		return "Hello Komal. Welcome to maven!!!";
 	}
 }
