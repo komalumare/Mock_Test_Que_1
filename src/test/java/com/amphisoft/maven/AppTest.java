@@ -7,7 +7,7 @@ public class AppTest  {
 	
 	@Test
     public void testApp() {
-        assertEquals(App.obtainWelcomeString(), "Hello Karthick. Welcome to maven!!!");
+        assertEquals(App.obtainWelcomeString(), "Hello komal. Welcome to maven!!!");
     }
     
 }
