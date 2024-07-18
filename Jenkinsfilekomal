@@ -26,11 +26,12 @@ pipeline{
       }
     }
 
-    stage("consolidate results"){
+    stage("Results"){
       steps{
-        junit "**/target/surfire-reports/*.xml"
-        archive "target/*.jar"
+        junit '**/target/surefire-reports/TEST-*.xml'
+        archiveArtifacts 'target/*.jar'
       }
     }
+
   }
 }
