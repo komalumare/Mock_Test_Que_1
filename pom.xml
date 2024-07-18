@@ -7,6 +7,10 @@
   <version>1</version>
   <name>mvndefaultlifecycle</name>
   <url>http://maven.apache.org</url>
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.token>sqa_d348b4eba05c6ecf7cce2fe757f5bccce32a35ed</sonar.token>
+	</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
